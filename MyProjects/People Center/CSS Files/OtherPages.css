@@ -1,0 +1,11 @@
+p {
+    font-size: 30px;
+}
+
+footer {
+    position: relative;
+    text-align: right;
+    background-color: black;
+    color: white;
+    top: 100px;
+}

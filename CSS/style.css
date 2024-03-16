@@ -1,0 +1,625 @@
+h1, header > p {
+    z-index: 1;
+}
+
+h1 {
+
+
+    /*position: absolute;
+    top: 450px;
+    left: 230px; */
+
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 67.5pt;
+    color: #FF94AC; 
+}
+
+header p {
+    
+    
+    /*position: absolute;
+    top: 450px;
+    left: 1000px; */
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25.1pt; 
+    color: #FFF994;
+}
+
+header > img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+}
+
+header > div {
+    display: flex;
+    gap: 400px;
+    justify-content: space-evenly;
+    align-items: start;
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+    top: 500px;
+    left: 350px
+}
+
+main img {
+    height: 300px;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+}
+
+main > div > div {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+main > div > div h2 {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 51.7pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.SkillText {
+    grid-column: span 2;
+    font-size: 22pt;
+    color: #94C1FF;
+}
+
+.EducationText {
+    grid-column: span 2;
+    font-size: 22pt;
+    color: #94C1FF;
+}
+
+p a {
+    color: #369694;
+}
+
+#Projects{
+    margin-top: 70px;
+}
+
+#Projects h2 {
+    font-size: 32pt;
+    color: #949FFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 17rem;
+}
+
+#Projects p {
+    font-size: 22pt;
+    color: #94C1FF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 17rem;
+}
+
+#Projects img {
+    margin-top: 50px;
+}
+
+.KindaFlex1 {
+    display: flex;
+    gap: 30px
+}
+
+img[src="./Images/PeopleCenterPreview.png"] {
+    margin-left: 17rem;
+}
+
+a[href="./MyProjects/People Center/HTML Files/HomePage.html"] {
+    margin-left: 17rem;
+}
+
+#Projects a {
+    width: 19%;
+}
+
+.KindaFlex2 {
+    display: flex;
+    gap: 30px
+}
+
+#special {
+    font-size: 22pt;
+    display: flex;
+    justify-content: right;
+    margin-right: 4rem
+}
+
+#About {
+    margin-top: 6rem;
+}
+
+#About h2 {
+    font-size: 32pt;
+    color: #949FFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 17rem;
+    height: fit-content;
+    grid-area: 1/1/1/1;
+    margin-bottom: 5rem;
+}
+
+#About p {
+    font-size: 22pt;
+    color: #94C1FF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 17rem;
+    margin-top: 7rem;
+    text-align: left;
+    width: 37rem;
+    height: fit-content;
+    border: #FABB17 solid 4pt;
+    border-radius: 36pt;
+    padding: 20px;
+    grid-area: 1/1/2/1;
+}
+
+img[src="./Images/PrinceNew.jpg"] {
+    border-radius: 50%;
+    margin-left: 10rem;
+    height: 600px;
+    width: 600px;
+    grid-area: 1/2/1/2;
+}
+
+#About {
+    height: 40rem;
+}
+
+#About > div > div{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+}
+
+#Contact > div {
+    display: flex;
+    justify-content: center;
+    height: 17rem;
+}
+
+#Contact > div > div {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.phone {
+    grid-row: 3;
+}
+
+#Contact h2, #firstp, .phone {
+    margin-right: 25rem;
+}
+
+#Contact h2 {
+    width: 300px;
+    height: 40px;
+    font-size: 32pt;
+    color: #949FFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#firstp {
+    width: 30rem;
+    font-size: 22pt;
+    color: #94C1FF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p[class="contacts"] {
+    margin-left: 30rem;
+    position: relative;
+    top: 200px;
+    font-size: 18pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+span {
+    line-height: 5px;
+}
+
+@media (max-width: 1920px) {
+    header > div {
+        display: flex;
+        gap: 150px;
+        justify-content: space-evenly;
+        align-items: start;
+        z-index: 1;
+        height: 100%;
+        position: absolute;
+        top: 400px;
+        left: 300px
+    }
+
+}
+
+@media (max-width: 1720px) {
+    header > div {
+        display: flex;
+        gap: 180px;
+        justify-content: space-evenly;
+        align-items: start;
+        z-index: 1;
+        height: 100%;
+        position: absolute;
+        top: 350px;
+        left: 300px
+    }
+
+    h1 {
+
+
+        /*position: absolute;
+        top: 450px;
+        left: 230px; */
+    
+        font-family: "Courier Prime", monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 50.5pt;
+        color: #FF94AC; 
+    }
+    
+    header p {
+        
+        
+        /*position: absolute;
+        top: 450px;
+        left: 1000px; */
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20.1pt; 
+        color: #FFF994;
+    }
+}
+
+@media (max-width: 1620px) {
+    header > div {
+        display: flex;
+        gap: 220px;
+        justify-content: space-evenly;
+        align-items: start;
+        z-index: 1;
+        height: 100%;
+        position: absolute;
+        top: 320px;
+        left: 200px
+    }
+
+    #About {
+        width: 5rem;
+    }
+}
+
+@media (max-width: 1420px) {
+    header > div {
+        display: flex;
+        gap: 250px;
+        justify-content: space-evenly;
+        align-items: start;
+        z-index: 1;
+        height: 100%;
+        position: absolute;
+        top: 300px;
+        left: 180px
+    }
+
+    h1 {
+        /*position: absolute;
+        top: 450px;
+        left: 230px; */
+    
+        font-family: "Courier Prime", monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 45.5pt;
+        color: #FF94AC; 
+    }
+    
+    header p {
+        /*position: absolute;
+        top: 450px;
+        left: 1000px; */
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20.1pt; 
+        color: #FFF994;
+    }
+}
+
+@media (max-width: 1220px) {
+    header > div {
+        display: flex;
+        gap: 170px;
+        justify-content: space-evenly;
+        align-items: start;
+        z-index: 1;
+        height: 100%;
+        position: absolute;
+        top: 220px;
+        left: 140px
+    }
+
+    h1 {
+        /*position: absolute;
+        top: 450px;
+        left: 230px; */
+    
+        font-family: "Courier Prime", monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40.5pt;
+        color: #FF94AC; 
+    }
+    
+    header p {
+        /*position: absolute;
+        top: 450px;
+        left: 1000px; */
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20.1pt; 
+        color: #FFF994;
+    }
+}
+
+@media (max-width: 1000px) {
+    header > div {
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        flex-direction: column;
+        margin-top: 50px;
+
+        height: 100%;
+        position: absolute;
+        top: 220px;
+        left: 140px;
+        margin-bottom: 600px;
+    }
+
+    h1 {
+        /*position: absolute;
+        top: 450px;
+        left: 230px; */
+    
+        font-family: "Courier Prime", monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 60.5pt;
+        color: #FF94AC; 
+    }
+    
+    header p {
+        /*position: absolute;
+        top: 450px;
+        left: 1000px; */
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20.1pt; 
+        color: #94C1FF;
+    }
+
+    header > img {
+        width: 0%;
+    }
+
+    main {
+        margin-top: 600px;
+    }
+
+    p {
+        font-size: 20px !important;
+        border: black solid 1px;
+        width: fit-content;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    main img {
+        width: 140px;
+        height: 140px;
+    }
+
+
+    #Projects{
+        margin-top: 40px;
+    }
+    
+    #Projects h2 {
+        font-size: 32pt;
+        color: #949FFF;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-left: 5rem;
+    }
+    
+    #Projects p {
+        font-size: 22pt;
+        color: #94C1FF;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-left: 5rem;
+    }
+    
+    #Projects img {
+        margin-top: 50px;
+    }
+    
+    .KindaFlex1 {
+        display: flex;
+        gap: 30px
+    }
+    
+    img[src="./Images/PeopleCenterPreview.png"] {
+        margin-left: 5rem;
+    }
+    
+    a[href="./MyProjects/People Center/HTML Files/HomePage.html"] {
+        margin-left: 5rem;
+    }
+    
+    #Projects a {
+        width: 19%;
+    }
+    
+    .KindaFlex2 {
+        display: flex;
+        gap: 30px
+    }
+    
+    #special {
+        font-size: 22pt;
+        display: flex;
+        justify-content: right;
+        margin-right: 4rem
+    }
+
+
+    #About {
+        margin-top: 6rem;
+    }
+    
+    #About h2 {
+        font-size: 32pt;
+        color: #949FFF;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-left: 5rem;
+        height: fit-content;
+        grid-area: 1/1/1/1;
+        margin-bottom: 5rem;
+    }
+    
+    #About p {
+        font-size: 22pt;
+        color: #94C1FF;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-left: 5rem;
+        margin-top: 7rem;
+        text-align: left;
+        width: 26rem;
+        height: fit-content;
+        border: #FABB17 solid 4pt;
+        border-radius: 36pt;
+        padding: 20px;
+        grid-area: 1/1/2/1;
+    }
+    
+    img[src="./Images/PrinceNew.jpg"] {
+        border-radius: 50%;
+        margin-left: 10rem;
+        height: 0px;
+        width: 0px;
+        grid-area: 1/2/1/2;
+    }
+    
+    #About {
+        height: 40rem;
+    }
+    
+    #About > div > div{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 3fr;
+    }
+
+
+    #Contact > div {
+        margin-left: 5rem;
+    }
+    
+    #Contact > div > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #Contact h2 {
+        width: 300px;
+        height: 50px;
+        font-size: 32pt;
+        color: #949FFF;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    .phone {
+        width: 0;
+        height: 0;
+    }
+
+    #firstp {
+        width: 0;
+        height: 0;
+        background-color: white;
+        color: white;
+    }
+
+    p[class="contacts"] {
+        margin-left: 5rem;
+        position: static;
+        font-size: 18pt;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    #Contact h2, #firstp, .phone {
+        margin-right: 0rem;
+        margin-left: 10rem;
+    }
+
+    }
+    
